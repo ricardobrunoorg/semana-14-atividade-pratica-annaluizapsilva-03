@@ -10,15 +10,17 @@ Sugerimos o uso das seguintes ferramentas acessíveis: [FullCalendar](https://fu
 
 ## Informações do trabalho
 
-- Nome:
-- Matricula:
-- Proposta de projeto escolhida:
-- Breve descrição sobre seu projeto:
+- Nome:Anna Luiza Pereira Silva
+- Matricula:1656540
+- Proposta de projeto escolhida:Blog de Moda
+- Breve descrição sobre seu projeto:O projeto foi pensado para ajudar as pessoas a escolher suas peças/looks e deixar-las informadas sobre lançamentos de moda.
 
 **Print da tela com a implementação**
 
-<< Coloque aqui uma breve explicação da implementação feita nessa etapa>>
+Nesta etapa foi implementada a página `dashboard.html`, que consome os dados
+da API do JSON Server e exibe visualizações interativas usando a biblioteca
+**Chart.js**.
 
-<<  COLOQUE A IMAGEM TELA 1 AQUI >>
+![p](dashboard.png)
 
-<<  COLOQUE A IMAGEM TELA 2 AQUI >>
+![p](page.png)

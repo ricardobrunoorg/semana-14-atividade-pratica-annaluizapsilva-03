@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dashboard — Blog de Moda</title>
+  <link rel="stylesheet" href="assets/css/styles.css" />
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+ 
+  <nav class="navbar">
+    <a class="navbar__brand" href="index.html">👗 Blog de Moda</a>
+    <ul class="navbar__links">
+      <li><a href="index.html">Looks</a></li>
+      <li><a href="form.html">+ Novo Look</a></li>
+      <li><a href="dashboard.html">Dashboard</a></li>
+    </ul>
+  </nav>
+ 
+  <div class="page">
+    <h1 class="page-title">Dashboard</h1>
+    <p class="page-subtitle">Análise visual dos looks cadastrados</p>
+ 
+    <div id="status"></div>
+ 
+  
+    <div class="kpi-strip" id="kpiStrip"></div>
+ 
+    
+    <div class="charts-grid">
+ 
+      <div class="chart-card">
+        <h2>Looks por categoria</h2>
+        <p class="chart-desc">Distribuição de todos os looks por categoria</p>
+        <div class="chart-wrap"><canvas id="chartPizza"></canvas></div>
+      </div>
+ 
+      <div class="chart-card">
+        <h2>Destaques</h2>
+        <p class="chart-desc">Proporção de looks marcados como destaque</p>
+        <div class="chart-wrap"><canvas id="chartDestaque"></canvas></div>
+      </div>
+ 
+      <div class="chart-card chart-card--wide">
+        <h2>Preço médio por categoria (R$)</h2>
+        <p class="chart-desc">Média de preço dos looks agrupados por categoria</p>
+        <div class="chart-wrap"><canvas id="chartPreco"></canvas></div>
+      </div>
+ 
+    </div>
+  </div>
+ 
+  <script src="assets/scripts/dashboard.js"></script>
+</body>
+</html>

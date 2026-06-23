@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Blog de Moda</title>
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+ 
+  <nav class="navbar">
+    <a class="navbar__brand" href="index.html">👗 Blog de Moda</a>
+    <ul class="navbar__links">
+      <li><a href="index.html">Looks</a></li>
+      <li><a href="form.html">+ Novo Look</a></li>
+      <li><a href="dashboard.html">Dashboard</a></li>
+    </ul>
+  </nav>
+ 
+  <div class="page">
+    <h1 class="page-title">Todos os Looks</h1>
+    <p class="page-subtitle">Explore, filtre e gerencie os looks cadastrados.</p>
+ 
+    <div class="filtros">
+      <input
+        type="text"
+        id="filtroBusca"
+        placeholder="Buscar por nome ou descrição…"
+      />
+      <select id="filtroCategoria">
+        <option value="">Todas as categorias</option>
+      </select>
+      <select id="filtroDestaque">
+        <option value="">Todos</option>
+        <option value="sim">Em destaque</option>
+        <option value="nao">Sem destaque</option>
+      </select>
+      <a class="btn-primary" href="form.html">+ Novo Look</a>
+    </div>
+ 
+    
+    <div id="cards">
+      <p>Carregando looks…</p>
+    </div>
+  </div>
+ 
+  <script src="assets/scripts/app.js"></script>
+</body>
+</html>
+ 
